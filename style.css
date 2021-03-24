@@ -1,0 +1,580 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+
+}
+/* nav bar */
+.navbar{
+  background-color: gold !important;
+
+}
+.navbar-nav{
+    font-size: larger;
+}
+.nav-item{
+    margin: 10px;
+}
+
+.cont{
+    position: relative;
+    max-width: 100%;
+    height: 800px;
+    background-image: url("./images/icon2.png"), url("./images/bg-home.jpg");
+    background-position: 800px 400px, left top;
+    background-repeat: no-repeat,no-repeat;
+    background-size: 200px,100%;
+
+}
+.text{
+    position: absolute;
+    top: 56%;
+    left: 63%;
+    font-size: 2em;
+    line-height: 1;
+}
+a{
+    color: white;
+    text-decoration: none;
+}
+a:hover{
+    color: white;
+    text-decoration: none;
+}
+/* About */
+.main{
+    padding-top: 100px;
+    padding-bottom: 100px;
+    background-color: rgb(238, 211, 215);
+    overflow: auto;
+}
+.headtwo{
+ color: crimson;
+ font-family:Arial, Helvetica, sans-serif;
+ text-align: center;
+}
+img{
+    float: right;
+}
+
+.headthree{
+    color: crimson;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.about{
+    border: 2px dotted grey;
+    width: 38%;
+
+}
+.about > h5{
+   text-align: center;
+   font-family: futura-renner;
+   font-weight: bold;
+   color: crimson;
+}
+.content{
+    line-height: 1.5;
+}
+.headfour{
+      
+     background-color: rgb(132, 219, 0);
+     color: white;
+     text-align: center;
+     font-family: sans-serif;
+}
+/* About */
+.blog{
+    width: 100%;
+    padding-top: 40px;
+}
+.grd{
+    display: flex;
+    flex-wrap: nowrap;
+    margin-left: 15%;
+
+}
+
+.img2{
+    float: left;
+    margin: 20px;
+}
+.aboutcontent{
+    margin-left: 10%;
+}
+
+.btnone{
+    border: 1px solid grey;
+    padding: 10px;
+    width: 25%;
+    position: relative;
+    left: 40%;
+    background-color: white;
+    transition: background 2s, color 2s;
+    transition-timing-function: ease;
+}
+.btnone:hover{
+    background-color: crimson;
+    color: white;
+    font-family: cursive;
+}
+.line1{
+    border: 1px solid rgb(189, 189, 189);
+}
+.box{
+  width: 70%;
+  float: left;
+  padding: 10px;
+}
+.box1{
+    width: 25%;
+    float: left;
+    padding: 10px;
+    background-color: rgb(170, 170, 170);
+    height: 600px;
+}
+.box1 > h2{
+    text-align: center;
+    padding-top: 20px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: bold;
+    color: crimson;
+}
+.img3{
+    margin: 20px;
+}
+h5{
+    text-align: center;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: lighter;
+    color: crimson;
+}
+.box > p{
+    font-size: 1px;
+    text-align: center;
+}
+.btntwo{
+    border: 1px solid grey;
+    padding: 10px;
+    margin-left: 20%;
+    width: 60%;
+    transition: background 2s, color 2s;
+    transition-timing-function: ease;
+}
+.btntwo:hover{
+    background-color: greenyellow;
+    color: white;
+    font-family: cursive;
+}
+.headsix{
+    background-color: greenyellow;
+    text-align: center;
+    color: white;
+}
+.maincont{
+    position: relative;
+}
+.cardonphoto{
+    width: 60%;
+    border: 1px solid black;
+    position:absolute;
+    background-color: white;
+    opacity: 0.8;
+    left: 25%;
+    margin-top: 100px;
+    height: auto;
+}
+.img5{
+    float: left;
+    margin: 10px;
+}
+.cardonphoto > h2{
+    color: crimson;
+}
+.formsec{
+   
+   margin-left: 30%;
+ 
+}
+.formsec > h3{
+    color: crimson;
+    font-family: sans-serif;
+    font-weight: lighter;
+}
+input{
+    width: 60%;
+    padding: 10px;
+}
+textarea{
+    width: 60%;
+}
+.btnlast{
+    border: 1px solid grey;
+    width: 20%;
+    background-color: white;
+}
+.centerdiv{
+    background-color: greenyellow;
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row; 
+    padding: 20px;
+    justify-content: center;
+    
+}
+.a {
+    color: white;
+    font-size: 3em;
+    margin-left: 50px;
+}
+.b{
+    color: white;
+    font-size: 3em;
+    margin-left: 50px;
+}
+.c{
+    color: white;
+    font-size: 3em;
+    margin-left: 60px;
+}
+.d{
+    color: white;
+    font-size: 3em;
+    margin-left: 40px;
+}
+h5{
+    color: white;
+    font-weight: bold;
+    padding: 20px;
+}
+/* Footer */
+
+.footer{
+    padding-top: 100px;
+    padding-bottom: 100px;
+    background-color: crimson;
+    text-align: center;
+    
+}
+.social-icon{
+    border: 1px solid black;
+    padding: 15px;
+}
+.fb{
+    background-color: #3a589b;
+    color: #fff;
+}
+.tw{
+    color: white;
+    background-color: dodgerblue;
+}
+.in{
+    background-color: crimson;
+    color: white;
+}
+.ln{
+    background-color: #007bb6;
+    color: white;
+}
+.lastrow > h5{
+    color: grey;
+    text-align: center;
+}
+@media screen and (max-width:500px){
+ 
+    .navbar{
+        width: 100%;
+    }
+    .navbar-toggler{
+      
+        margin-left: 50%;
+    }
+    .nav-item{
+      
+        text-align: center;
+        
+    }
+    .nav-link{
+        border-bottom: 1px dashed grey;
+        width: 400px;
+    }
+    /* Header second images link */
+    .cont{
+        position: relative;
+        max-width: 100%;
+        height: 800px;
+        background-image: url("./images/icon2.png"), url("./images/bg-home.jpg");
+        background-position: 300px 200px, left top;
+        background-repeat: no-repeat,no-repeat;
+        background-size: 100px,100%;
+    
+    }
+    .text{
+        position: absolute;
+        top: 28%;
+        left: 66%;
+        font-size: 1em;
+        line-height: 1;
+        
+    }
+    a{
+        color: white;
+        text-decoration: none;
+    }
+    a:hover{
+        color: white;
+        text-decoration: none;
+    }
+    /* About us */
+   .headtwo{
+
+    color: crimson;
+    font-family:Arial, Helvetica, sans-serif;
+    text-align: center;
+    position: relative;
+    bottom: 500px;
+   }
+   .main{
+    width: 100%;
+    position: relative;
+    background-color: rgb(238, 211, 215);
+    overflow: auto;
+    bottom: 450px;
+    padding-top: 5px;
+}
+.imgab{
+   width: 500px;
+}
+.headthree{
+    color: crimson;
+    font-family:futura-renner;
+}
+.about{
+    width: 100%;
+    border: 2px dotted grey;
+    width: 450px;
+
+}
+.about > h5{
+   text-align: center;
+   font-family: futura-renner;
+   font-weight: bold;
+   color: crimson;
+}
+/* Blog section in 500px */
+.headfour{
+    width: 100%;
+    background-color: rgb(132, 219, 0);
+    color: white;
+    text-align: center;
+    font-family: sans-serif;
+    position: relative;
+    bottom: 450px;
+}
+.blog{
+   width: 300px;
+    position: relative;
+    bottom: 450px;
+}
+.grd{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+   
+}
+.headfive{
+    width:250px;
+}
+.para1,.para2,.para3{
+    width: 400px;
+}
+
+.btnone{
+    border: 1px solid grey;
+    padding: 10px;
+    width: 80%;
+    position: relative;
+    left: 20%;
+    background-color: white;
+    transition: background 2s, color 2s;
+    transition-timing-function: ease;
+}
+.btnone:hover{
+    background-color: crimson;
+    color: white;
+    font-family: cursive;
+}
+.line1{
+    border: 1px solid rgb(189, 189, 189);
+}
+.headfive{
+      width:200px;
+}
+.box1{
+    width: 100%;
+    float: left;
+    padding: 10px;
+    background-color: rgb(170, 170, 170);
+    height: 700px;
+}
+.box1 > h2{
+    text-align: center;
+    padding-top: 20px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: bold;
+    color: crimson;
+}
+.img3{
+    
+}
+h5{
+    text-align: center;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: lighter;
+    color: crimson;
+}
+.box > p{
+    font-size: 1px;
+    text-align: center;
+}
+.btntwo{
+    border: 1px solid grey;
+    padding: 10px;
+    margin-left: 20%;
+    width: 60%;
+    transition: background 2s, color 2s;
+    transition-timing-function: ease;
+}
+.btntwo:hover{
+    background-color: greenyellow;
+    color: white;
+    font-family: cursive;
+}
+/* contact */
+.headsix{
+    background-color: greenyellow;
+    text-align: center;
+    color: white;
+    width: 100%;
+    position: relative;
+    bottom: 420px;
+    padding: 20px;
+}
+.maincont{
+    position: relative;
+    bottom: 400px;
+}
+.cardonphoto{
+    width: 80%;
+    border: 1px solid black;
+    position:absolute;
+    background-color: white;
+    opacity: 0.8;
+    left: 15%;
+    margin-top: 50px;
+    height: auto;
+}
+.img5{
+    float: left;
+    margin: 10px;
+}
+.cardonphoto > h2{
+    color: crimson;
+}
+.formsec{
+   
+   position: relative;
+   bottom: 350px;
+   margin-left: 10%;
+ 
+}
+.formsec > h3{
+    color: crimson;
+    font-family: sans-serif;
+    font-weight: lighter;
+}
+input{
+    width: 100%;
+    padding: 10px;
+}
+textarea{
+    width: 100%;
+}
+.btnlast{
+    border: 1px solid grey;
+    width: 40%;
+    background-color: white;
+}
+/* Last some text */ 
+.centerdiv{
+    background-color: greenyellow;
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column; 
+    justify-content: center;
+    position: relative;
+    bottom: 200px;
+   
+}
+.a {
+    color: white;
+    font-size: 3em;
+    margin-left: 45%;
+}
+.b{
+    color: white;
+    font-size: 3em;
+    margin-left: 45%;
+}
+.c{
+    color: white;
+    font-size: 3em;
+    margin-left: 45%;
+}
+.d{
+    color: white;
+    font-size: 3em;
+    margin-left: 45%;
+}
+h5{
+    color: white;
+    font-weight: bold;
+    padding: 20px;
+}
+/* footer */
+
+.footer{
+   
+   
+    padding-top: 100px;
+    padding-bottom: 100px;
+    background-color: crimson;
+    text-align: center;
+    
+    
+}
+.social-icon{
+    border: 1px solid black;
+    padding: 15px;
+}
+.fb{
+    background-color: #3a589b;
+    color: #fff;
+}
+.tw{
+    color: white;
+    background-color: dodgerblue;
+}
+.in{
+    background-color: crimson;
+    color: white;
+}
+.ln{
+    background-color: #007bb6;
+    color: white;
+}
+.lastrow > h5{
+    color: grey;
+    text-align: center;
+}
+}
